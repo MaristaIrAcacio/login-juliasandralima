@@ -4,15 +4,15 @@ function acessar() {
 
     let loginSenha = document.getElementById("loginSenha").value;
 
- 
 
-    if(!loginEmail || !loginSenha) {
+
+    if (!loginEmail || !loginSenha) {
 
         alert("favor preencha os campos para acessar o site");
 
     } else {
 
-       window.location.href ="aula2.html";
+        window.location.href = "aula2.html";
 
     }
 
